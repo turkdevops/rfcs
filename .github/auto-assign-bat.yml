@@ -3,11 +3,8 @@ numberOfAssignees: 1
 
 filterLabels:
   include:
-  - Implementation
+  - Buildpack Authors' Tooling
 
 assignees:
 - ekcasey
-- jabrown85
-- natalieparellano
-- nebhale
-- sclevine
+- hone
