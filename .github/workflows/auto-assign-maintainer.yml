@@ -13,7 +13,7 @@ jobs:
     runs-on:
     - ubuntu-latest
     steps:
-    - uses: kentaro-m/auto-assign-action@v1.2.0
+    - uses: kentaro-m/auto-assign-action@v1.2.1
       with:
         configuration-path: .github/auto-assign-core.yml
   distribution:
@@ -21,7 +21,7 @@ jobs:
     runs-on:
     - ubuntu-latest
     steps:
-    - uses: kentaro-m/auto-assign-action@v1.2.0
+    - uses: kentaro-m/auto-assign-action@v1.2.1
       with:
         configuration-path: .github/auto-assign-distribution.yml
   implementation:
@@ -29,7 +29,7 @@ jobs:
     runs-on:
     - ubuntu-latest
     steps:
-    - uses: kentaro-m/auto-assign-action@v1.2.0
+    - uses: kentaro-m/auto-assign-action@v1.2.1
       with:
         configuration-path: .github/auto-assign-implementation.yml
   learning:
@@ -37,7 +37,7 @@ jobs:
     runs-on:
     - ubuntu-latest
     steps:
-    - uses: kentaro-m/auto-assign-action@v1.2.0
+    - uses: kentaro-m/auto-assign-action@v1.2.1
       with:
         configuration-path: .github/auto-assign-learning.yml
   platform:
@@ -45,6 +45,6 @@ jobs:
     runs-on:
     - ubuntu-latest
     steps:
-    - uses: kentaro-m/auto-assign-action@v1.2.0
+    - uses: kentaro-m/auto-assign-action@v1.2.1
       with:
         configuration-path: .github/auto-assign-platform.yml
