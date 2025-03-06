@@ -12,7 +12,7 @@
 # Summary
 [summary]: #summary
 
-Add support for different execution environments for buildpacks, with testing as the first use case.
+Add buildpack support for multiple execution environments, with better support for testing as the first use case.
 
 # Definitions
 [definitions]: #definitions
