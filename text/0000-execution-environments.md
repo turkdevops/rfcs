@@ -63,7 +63,7 @@ A platform will set the `CNB_EXEC_ENV` env var to the desired execution environm
 In addition, Builder Authors, Buildpack Authors, and App Developers will be able to configure various options for specific execution environments using the `exec-env` key.
 
 ## Development Environments
-The specifics of creating development enviroments are out of scope of this RFC, but it's not hard to extrapolate how these kind of changes can assist in creating Buildpacks for development environments.
+The specifics of creating development environments are out of scope of this RFC, but it's not hard to extrapolate how the proposed changes can assist in creating Buildpacks for development environments.
 
 # How it Works
 [how-it-works]: #how-it-works
