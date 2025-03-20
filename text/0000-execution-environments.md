@@ -128,7 +128,7 @@ exec-env = ["production"]
 
 ### `builder.toml` (Builder Authors)
 
-The the only table `exec-env` will be added to is `[[order.group]]` and `[[build.env]]`.
+The `exec-env` key will be added to the `[[order.group]]` and `[[build.env]]` arrays of tables.
 
 ### `buildpack.toml` (Buildpack Authors)
 
