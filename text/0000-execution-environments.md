@@ -70,7 +70,7 @@ The specifics of creating development environments are out of scope of this RFC,
 
 ## `exec-env` key in TOML
 
-In order to support additional execution environments an `exec-env` key will be added to various TOML tables in the project. This will be an array that takes string values. An individual element can be any string with `*` having special meaning. Similar to the ["any stack RFC"](https://github.com/buildpacks/rfcs/blob/main/text/0056-any-stack-buildpacks.md) `*` will apply to all execution environments. `["*"]` will be the default if not specified. This should make the key backwards compatible and optional. When `exec-env` is not empty and does not include `*`, the table settings will only be applied to the specificed execution environments.
+In order to support additional execution environments, an optional `exec-env` key will be added to various TOML tables in the project. This will be an array that takes string values. An individual element can be any string with `*` having special meaning. Similar to the ["any stack RFC"](https://github.com/buildpacks/rfcs/blob/main/text/0056-any-stack-buildpacks.md), `*` will apply to all execution environments. `["*"]` will be the default if not specified. This should make the key backwards compatible. When `exec-env` is not empty and does not include `*`, the table settings will only be applied to the specified execution environments.
 
 ### Project Descriptor - `project.toml` (App Developers)
 
