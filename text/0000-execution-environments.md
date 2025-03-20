@@ -142,7 +142,7 @@ Not all process types make sense for every execution environment. In order to he
 
 ### `metadata.toml` (Platform Operators)
 
-On the platform side, the `exec-env` key will be added to `metadata.toml` in the `[[processes]]` table to mirror `launch.toml`. This will help platforms to make decisions on which processes are desired for each execution environment. `lifecycle` will list all processes and will not exclude any based on the execution environment Instead, a platform can use the available information to make a decision.
+On the platform side, the `exec-env` key will be added to `metadata.toml` in the `[[processes]]` table to mirror `launch.toml`. This will help platforms decide which processes are desired for each execution environment. `lifecycle` will list all processes and will not exclude any based on the execution environment Instead, a platform can use the available information to make a decision.
 
 ## `CNB_EXEC_ENV` Environment Variable
 
