@@ -162,7 +162,7 @@ In addition, the `/` character is reserved in case we need to introduce namespac
 
 A buildpack author will be able to determine the execution environment their buildpack is expected to build for by reading the `CNB_EXEC_ENV` environment variable. If this value is not set, a Buildpack Author can assume it's set to `production`. This will be provided for both `bin/detect` and `bin/build`.
 
-This would let a buildpack author do different things based on the execution environment. For example, it's common for a production build to not include test dependencies or files, while a test environment would include those things. For compiled languages, a production might even remove the source code and just leave the compiled binary with optimizations. In a test environment, it may include debug symbols, not run with optimizations, not prune the source tree.
+This would let a buildpack author do different things based on the execution environment. For example, it's common for a production build to exclude test dependencies or files that a test environment would include. For compiled languages, a production build might even remove the source code and just leave the compiled binary with optimizations. In a test environment, a build may include debug symbols, be compiled without optimizations, and leave the source code untouched.
 
 ### Platform API
 
