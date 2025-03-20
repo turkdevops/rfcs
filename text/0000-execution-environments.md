@@ -74,7 +74,7 @@ In order to support additional execution environments an `exec-env` key will be 
 
 ### Project Descriptor - `project.toml` (App Developers)
 
-An app developer may have execution environment configuration like only using a metrics agent in production or headless user agent needs in test. In order to facilitate these needs, the project descriptor will be extended by adding `exec-env` to the following tables:
+An app developer may have execution environment specific configuration, like only using a metrics agent in production, or a headless user agent in test. In order to facilitate these needs, the project descriptor will be extended by adding `exec-env` to the following tables:
 
 * `[[io.buildpacks.group]]`
 * `[[io.buildpacks.pre.group]]`
