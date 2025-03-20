@@ -3,11 +3,11 @@
 - Name: Execution Environments
 - Start Date: 2023-01-11
 - Author(s): @hone
-- Status: Draft <!-- Acceptable values: Draft, Approved, On Hold, Superseded -->
-- RFC Pull Request: (leave blank)
+- Status: Approved
+- RFC Pull Request: [rfcs#274](https://github.com/buildpacks/rfcs/pull/274)
 - CNB Pull Request: (leave blank)
-- CNB Issue: (leave blank)
-- Supersedes: (put "N/A" unless this replaces an existing RFC, then link to that RFC)
+- CNB Issue: [rfcs#327](https://github.com/buildpacks/rfcs/issues/327)
+- Supersedes: N/A
 
 # Summary
 [summary]: #summary
