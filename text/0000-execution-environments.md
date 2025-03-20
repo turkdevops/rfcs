@@ -17,7 +17,7 @@ Add buildpack support for multiple execution environments, with better support f
 # Definitions
 [definitions]: #definitions
 
-- Execution Environment - The target environment the OCI image is expected to be run in, i.e. production, test, development.
+- Execution Environment - The target environment the OCI image is expected to be executed in, i.e. production, test, development.
 
 # Motivation
 [motivation]: #motivation
