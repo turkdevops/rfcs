@@ -58,7 +58,7 @@ This narrows the scope of the Buildpack responsibilities to what it's already go
   - launch.toml with test process marked as default (recommendation)
 
 ## Setting the Execution Enviroment for Build + Buildpack
-A platform will set the `CNB_EXEC_ENV` env var to the execution environment desired. Buildpacks can than read this env var to branch or switch on logic needed based on the execution environment.
+A platform will set the `CNB_EXEC_ENV` env var to the desired execution environment. Buildpacks can then read this env var to branch or switch on logic needed for the execution environment.
 
 In addition, Builder Authors, Buildpack Authors, and App Developers will be able to specify various options to a specific execution enviroment using the `exec-env` key.
 
