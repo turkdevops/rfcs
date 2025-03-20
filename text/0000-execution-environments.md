@@ -22,7 +22,7 @@ Add buildpack support for multiple execution environments, with better support f
 # Motivation
 [motivation]: #motivation
 
-The main way Buildpacks are being used is building production images, but this is only one piece of the software development process. Without a solid buildpack test environment story, users will be required use alternatives for building their environment. A testing environment, while different, shares many of the same broad strokes ultimately producing an execution environment. This is something Buildpacks are well positioned to solve.
+Buildpacks are mainly being used to build images for production environments, but this is only one piece of the software development process. Without test environment support for buildpacks, users currently have to implement alternatives for testing their source code. Buildpacks are well positioned to help bridge that gap, as building production and test environments often share many of the same broad strokes.
 
 # What it is
 [what-it-is]: #what-it-is
